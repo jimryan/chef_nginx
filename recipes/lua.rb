@@ -40,5 +40,5 @@ end
 
 node.run_state['nginx_source_env'].merge!(
   'LUAJIT_INC' => '/usr/local/include/luajit-2.0',
-  'LUAJIT_LIB' => '/usr/local/lib/lua'
+  'LUAJIT_LIB' => '/usr/local/lib'
 )
